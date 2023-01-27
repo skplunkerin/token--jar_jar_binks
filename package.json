@@ -1,0 +1,25 @@
+{
+  "name": "token_jar_jar_binks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy_local": "npx hardhat run scripts/deploy.js",
+    "deploy_goerli": "npx hardhat run scripts/deploy.js --network goerli"
+  },
+  "keywords": [],
+  "author": "skplunkerin.eth",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.1",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "chai": "^4.3.7",
+    "hardhat": "^2.12.6",
+    "mocha": "^10.2.0"
+  }
+}
